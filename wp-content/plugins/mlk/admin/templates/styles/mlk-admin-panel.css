@@ -1,0 +1,46 @@
+#wpbody {
+    height: calc(100vh - 50px);
+}
+.container {
+    position: absolute;
+    width: 80%;
+    height: 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+}
+
+.l-menu {
+    display: none;
+    text-align: center;
+    font-size: 0.8vw;
+    color: white;
+    background: black;
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+
+.mlk-logo {
+    position: absolute;
+    height: 7vh;
+    right: 0;
+}
+.h-menu {
+    display: inline-block;
+    background: red;
+    height: 6vh;
+    margin: 0;
+}
+.h-menu button {
+    font-size: 1vw;
+    height: 100%;
+    background: #FFFFFF;
+    border: 1px solid #2d3136;
+    transition: 1s;
+}
+.h-menu button:hover {
+    background: black;
+    color: white;
+}

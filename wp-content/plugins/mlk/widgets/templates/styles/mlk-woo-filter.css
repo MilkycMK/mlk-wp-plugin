@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+.mlk_filter li {
+    width: 280px;
+    height: 65px;
+    border-radius: 14px;
+    position: relative;
+    margin-top: 16px;
+    background: white;
+    border: 2px solid #E6EBF0;
+    user-select: none;
+}
+.mlk_filter_header {
+    color: #707F8D !important;
+    background: #F2F5F9 !important;
+    padding: 0 36px;
+    cursor: pointer;
+}
+.mlk_filter_element button {
+    background: none;
+    width: inherit;
+    height: inherit;
+    text-align: left;
+    padding: 0 36px;
+    color: #000000 !important;
+}
+.mlk_filter_element button:hover {
+    color: #0045CF !important
+}
+.mlk_filter li:hover {
+    border: 2px solid #0045CF;
+}
+.mlk_filter_text {
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    line-height: 60px;
+    color: black;
+    text-decoration: none !important;
+}
+.mlk_filter_reset_button {
+    background: #F2F5F9 !important;
+    margin-top: 0 !important;
+}
