@@ -101,6 +101,7 @@ if ( isset( $_POST['remove_cat_parent'] ) ) {
                     }
                 }
                 ?>
+
             </select>
             <button name="todo" value="delete" class="wc-submit">удалить</button>
         </form>
