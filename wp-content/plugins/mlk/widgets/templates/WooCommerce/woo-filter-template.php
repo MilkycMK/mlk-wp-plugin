@@ -26,11 +26,11 @@
         <li class="mlk_filter_element mlk_filter_reset_button mlk_filter_text"><button>Сбросить фильтры</button></li>
         <?php
             foreach ( $filter_settings as $filter ) {
-                if ($filter['list_cat'] == 'default') {
+                $id = $filter['list_cat'];
+                if ($filter['list_cat'] == 'default' || get_the_category_by_ID( $id ) == null) {
                     continue;
                 }
                 echo '<ul class="mlk_filter_category">';
-                $id = $filter['list_cat'];
 
                 if ( $filter['cat_name'] != '') {
                     $title = $filter['cat_name'];
